@@ -157,7 +157,7 @@
 
 
  <!-- Section -->
- <section style="line-height: 50px;" id="second">
+ <section style="line-height: 50px;" id="third">
 	<header style="width: 60%;">
 		<h2 style="font-size: 60px;"><strong>호러 좀비 방탈출 게임! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Matador- </strong></h2>
 		<h2 style="font-size: 50px;"><strong>팀. 김대희 황상욱</strong></h2>
