@@ -91,7 +91,7 @@ XR 가상 스튜디오
  • 기존 서비스 대비 비용적인 절감
 				</pre></p>
 									<button onclick="PPT열기()"><strong style="color: red; font-size: 200%;">V-Studio_PPT</strong> </button>
-											<div display: block; id="V-Studio-PPT"> <iframe style="width: 800px; height:650px;" src="./Go-Galbi팀 3차 ppt 자료.pdf"></iframe>
+											<div display: block; id="V-Studio-PPT"> <iframe style="width: 800px; height:630px;" src="./Go-Galbi팀 3차 ppt 자료.pdf"></iframe>
 												<button onclick="PPT닫기()"><strong style="color: red; font-size: 200%;">Close</strong> </button>
 												<pre>
 												</pre>
@@ -156,7 +156,7 @@ XR 가상 스튜디오
  • 내기 게임 한판 승부~! 하지만 꼭 꼴등은..OTL
 								</pre></p>
 								<button onclick="PPT열기()"><strong style="color: red; font-size: 200%;">Rush&Fish_PPt</strong> </button>
-								<div display: block; id="V-Studio-PPT"> <iframe style="width: 800px; height:500px;" src="./Rush&Fish ppt.pdf"></iframe>
+								<div display: block; id="V-Studio-PPT"> <iframe style="width: 800px; height:480px;" src="./Rush&Fish ppt.pdf"></iframe>
 								<button onclick="PPT닫기()"><strong style="color: red; font-size: 200%;">Close</strong> </button>
 								<pre>
 								</pre>
@@ -220,7 +220,7 @@ XR 가상 스튜디오
    맛을 알아버림!! 
 							</pre></p>
 							<button onclick="PPT열기()"><strong style="color: red; font-size: 200%;">Matador_PPt</strong> </button>
-							<div display: block; id="V-Studio-PPT"> <iframe style="width: 800px; height:500px;" src="./Rush&Fish ppt.pdf"></iframe>
+							<div display: block; id="V-Studio-PPT"> <iframe style="width: 800px; height:800px;" src="./Matador ppt.pdf"></iframe>
 							<button onclick="PPT닫기()"><strong style="color: red; font-size: 200%;">Close</strong> </button>
 							<pre>
 							</pre>
