@@ -2840,9 +2840,9 @@ input, select, textarea {
 	a.arrow {
 		border-bottom: 0;
 		display: inline-block;
-		height: 4rem;
+		height: 2rem;
 		position: relative;
-		width: 6rem;
+		width: 3rem;
 	}
 
 		a.arrow .label {
