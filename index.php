@@ -115,48 +115,49 @@ XR 가상 스튜디오
 							</pre>
 				<h2 style="font-size: 150%;"><strong>-개발사항 및 기능구현-</strong></h2>
 				<pre style="font-size: 100%; line-height:150%; letter-spacing: 0.01px;">
- • 페이스 및 모션 트래킹, 트위치 연동 개발 부분 보조를 하며 그 외 모든 기능구현
-   (Character, UI, Animation, Studio, Server, 상호작용, 그 외 컨텐츠 개발 등등)  
-   메인을 담당 하였습니다.
+ • 페이스 및 모션 트래킹, 트위치 연동 부분 개발 보조를 했으며 그 외 모든 관련
+   (Character, UI, Animation, Studio, Server, 상호작용, 그 외 컨텐츠 등등)  
+   메인 개발을 담당 하였습니다.
 
                 <span class="image main"><img src="images/Vstudio/Vstudio - 페이스트래킹.png" alt="" />              <strong style="font-size: 100%; ">      -Face Tracking Animation Buleprint-</strong>
- • 본 프로젝트 메인 기능 중 하나이며 라이브링크 플러그인을 사용해야 동작이 가능하다.
- • 메타휴먼 생성시 자동 생성, 페이스트래킹에 세부적인 부분은 추가 수정 가능하다.</span>
+ • 본 프로젝트 메인 기능 중 하나이며 라이브링크 플러그인을 사용해야 동작이 가능합니다.
+ • 메타휴먼 생성시 자동 생성, 페이스트래킹에 세부적인 부분은 추가 수정이 가능합니다.</span>
 				<span class="image main"><img src="images/Vstudio/Vstudio - 모션트래킹.png" alt="" /><strong style="font-size: 100%;">                    -Motion Tracking Animation Buleprint-</strong>
- • 본 프로젝트 메인 기능 중 하나이며 PoseAI 플러그인을 사용해야 동작이 가능하다.
- • Rayered Bland Per Bone 노드를 쓰면 특정 부위 고정 후 모션트래킹이 가능하다. </span>
+ • 본 프로젝트 메인 기능 중 하나이며 PoseAI 플러그인을 사용해야 동작이 가능합니다.
+ • Rayered Bland Per Bone 노드를 쓰면 특정 부위 고정 후 모션트래킹이 가능합니다. </span>
 				<span class="image main"><img src="images/Vstudio/Vstudio - 캐릭터.png" alt=""/><strong style="font-size: 100%;">                           -Character Buleprint-</strong>
- • 언리얼에서 제공하는 메타휴먼과 브이로이드 캐릭터를 커스텀 하여 사용.
- • 캐릭터와 상호작용이 가능한 이벤트 기능과 애니메이션 단축키 기능 구현.
- • 캐릭터의 Object 상호작용 같은 경우 단축키가 아닌 모션트래킹으로도 상호작용
-   (총을 들고 쏘는 모션을 하면 총알이 나감, 컵을들고 기울이면 물이 쏟아짐, 벽에
-    있는 조명 스위치를 누르면 조명 on/off 가능)하게 구현.   </span>
+ • 언리얼에서 제공하는 메타휴먼과 브이로이드 캐릭터를 커스텀 하여 사용했습니다.
+ • 캐릭터와 상호작용이 가능한 이벤트 기능과 애니메이션 단축키 기능을 구현했습니다.
+ • 캐릭터의 Object 상호작용 같은 경우 단축키가 아닌 모션트래킹으로도 상호작용이
+   (총을 들고 쏘는 모션을 하면 총알이 발사, 컵을들고 기울이면 물이 쏟아짐, 벽에
+    있는 조명 스위치를 누르면 조명 on/off) 가능하게 구현했습니다.   </span>
                 <span class="image main"><img src="images/Vstudio/Vstudio - 스켈레톤.png" alt=""/><img src="images/Vstudio/Vstudio - 애니메이션.png" alt=""/><strong style="font-size: 100%;">                        -Character Aimation Buleprint-</strong>
- • 개발 기간중 가장 오래 작업 하며 문제가 됬던 부분.
-   아직 얼리얼엔진 내 베타 개발중인 메타휴먼에 상용화 되있는 애니메이션 에셋을 
-   사용하려 메타휴먼 스켈레톤에 임포트 시켰지만 본크기와 갯수들이 맞지 않아 임포트가
+ • 개발 기간중 가장 오래 작업 하며 문제가 되었던 부분 입니다.
+   아직 얼리얼엔진 내 베타 개발중인 메타휴먼에 상용화가 되있는 애니메이션 에셋을 
+   사용하려 메타휴먼 스켈레톤에 임포트 시켰지만 본 크기와 갯수들이 맞지 않아 임포트가
    되어도 캐릭터 몸이 꼬이거나 접히는등 이상 오류가 생김. 이를 해결하기 위해 꽤 긴 시간을 
    공식문서 검토 및 구글링을 하게 되었고 해외 개발자 유튜버를 통하여 믹사모 컨버터와 
-   메타휴먼 리타깃이 가능한 기본 스켈레톤을 배포 받았다. 이로인해 애니메이션 에셋 적용은
-   해결 하였지만 동작 하나 하나의 세부적인 부분은 다시 잡아 줘야 활용이 가능했다.
+   메타휴먼 리타깃이 가능한 기본 스켈레톤을 배포 받았습니다. 이로인해 애니메이션 에셋 적용은
+   해결 하였지만 동작 하나 하나의 세부적인 부분은 다시 잡아 줘야 활용이 가능했습니다.
    위와 같은 문제는 향후 언리얼엔진 개발사 쪽에서 조정 및 추가 업데이트를 한다는 공지가 
-   있었고 추가 개발에 기다림을 가지는게 맞다고 생각한다.    </span>
+   있었고 추가 개발에 기다림을 가지는게 맞다고 생각합니다.    </span>
 
    			    <span class="image main"><img src="images/Vstudio/Vstudio - 레벨.png" alt="" /><strong style="font-size: 100%;">                    -Sudio Main Lever Buleprint-</strong>
- • 전반적인 슈튜디오에 필요한 기능(카메라 시점 변경, 모니터 전원 on/off, 조명 컨트롤,
-   룰렛 on/off 등등)들을 구현.
- • 크로마키 기능 사용이 가능한 맵 구현.</span>
+ • 전반적인 스튜디오에 필요한 기능(카메라 시점 변경, 모니터 전원 on/off, 조명 컨트롤,
+   룰렛 on/off 등등)들을 구현 했습니다.
+ • 크로마키 기능 사용이 가능한 맵 구현했습니다.</span>
                 <span class="image main"><img src="images/Vstudio/Vstudio - 캐릭터선택.png" alt="" /><img src="images/Vstudio/Vstudio - 캐릭터선택-2.png" alt="" /><img src="images/Vstudio/Vstudio - 맵선택.png" alt="" /><img src="images/Vstudio/Vstudio - 맵선택-2.png" alt="" /><strong style="font-size: 100%;">                 -Character & Studio Selection Wiget Buleprint-</strong>
- • 9명의 캐릭터와 5종류의 스튜디오를 선택 가능하게 구현.
+ • 9명의 캐릭터와 5종류의 스튜디오를 선택 가능하게 구현했습니다.
  • 아쉬운 점이 있다면 기능은 잘 돌아가지만 위젯 블루프린트 기능 중 Set Visibility 
-   기능을 셋팅메뉴 위젯을 구현 할때 알게 되어 코딩적인 부분에서 최적화가 덜 되어있음.  </span>
+   기능을 셋팅메뉴 위젯을 구현 할때 알게 되어 개발적인 부분에서 스킬이 부족했다는 
+   아쉬움이 있습니다.  </span>
                 <span class="image main"><img src="images/Vstudio/Vstudio - 셋팅메뉴.png" alt="" /><img src="images/Vstudio/Vstudio - 셋팅메뉴-2.png" alt="" /><strong style="font-size: 100%;">                 -Game Setting Menu Wiget Buleprint-</strong>
  • 셋팅메뉴 위젯에 필요한 디자인 에셋을 구매 하였고 파일 확인중 데모 파일에 작업된
-   Set Visibility 기능을 보고 또 한번 코딩에 질이 올라감!  
+   Set Visibility 기능을 보고 또 한번 개발에 질이 올라 가게 되었습니다.  
  • 이번 셋팅메뉴 위젯 작업으로 인해 텍스트 입력값을 받아와 이벤트 출력을 하는 기능을
-   알게 되었으며 구현 가능하게 되었음.  </span>
- • 그외 모든 작업 도중 서버작업을 추가 및 변행하였으며 약 60%정도 기능 업로드가 되어있다.
- • 추가로 트위치 채팅을 이용한 채팅봇을 언리얼로 개발 및 테스트 중에 있다.   
+   알게 되었으며 구현 가능하게 되었습니다.  </span>
+ • 그외 모든 작업 도중 서버작업을 추가 및 변행하였으며 약 60%정도 기능 업로드가 되어있습니다.
+ • 추가로 트위치 채팅을 이용한 채팅봇을 언리얼로 개발 및 테스트 중에 있습니다.   
 						</pre>
 						<button onclick="VStudio닫기()"><strong style="color: red; font-size: 200%;">Close</strong>
 					</button>
