@@ -144,8 +144,8 @@ XR 가상 스튜디오
 
    			    <span class="image main"><img src="images/Vstudio/Vstudio - 레벨.png" alt="" /><strong style="font-size: 100%;">                    -Sudio Main Lever Buleprint-</strong>
  • 전반적인 스튜디오에 필요한 기능(카메라 시점 변경, 모니터 전원 on/off, 조명 컨트롤,
-   룰렛 on/off 등등)들을 구현 했습니다.
- • 크로마키 기능 사용이 가능한 맵 구현했습니다.</span>
+   룰렛 on/off 등등)들을 구현했습니다.
+ • 크로마키 기능 사용이 가능한 스튜디오를 구현했습니다.</span>
                 <span class="image main"><img src="images/Vstudio/Vstudio - 캐릭터선택.png" alt="" /><img src="images/Vstudio/Vstudio - 캐릭터선택-2.png" alt="" /><img src="images/Vstudio/Vstudio - 맵선택.png" alt="" /><img src="images/Vstudio/Vstudio - 맵선택-2.png" alt="" /><strong style="font-size: 100%;">                 -Character & Studio Selection Wiget Buleprint-</strong>
  • 9명의 캐릭터와 5종류의 스튜디오를 선택 가능하게 구현했습니다.
  • 아쉬운 점이 있다면 기능은 잘 돌아가지만 위젯 블루프린트 기능 중 Set Visibility 
